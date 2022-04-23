@@ -11,7 +11,7 @@ It also has an LED that gives feedback about the current status.
 ## BLE Services
 The Arduino exposes a Bluetooth Low Energy Server with one Service:
 
-### Buzzer Servoce 
+### Buzzer Service 
 UUID: `be09ae42-9157-4eed-87d1-1f3b4e31510f`  
 buzzerCharacteristic: `22f64ef5-b567-4e5d-bbac-4b384e6a6c36` - BLERead | BLENotify
 
@@ -20,5 +20,5 @@ A one-byte characteristic that indicates whether the buzzer button is currently 
 ## LED
 The LED provides information about the status of the unit:
 - Off: the unit is switched off
-- Flashing (4x/second): Ready for a Bluetooth connection
+- Flashing (2x/second): Ready for a Bluetooth connection
 - On: Connected
