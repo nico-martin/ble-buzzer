@@ -6,7 +6,7 @@ It also has an LED that gives feedback about the current status.
 
 ## Circuit
 
-![BLE Buzzer Circuit](https://uploads.nico.dev/ble-buzzer-circuit.jpg)
+![BLE Buzzer Circuit](https://uploads.nico.dev/ble-buzzer-circuit-arduino.jpg)
 
 ## BLE Services
 The Arduino exposes a Bluetooth Low Energy Server with one Service:
